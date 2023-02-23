@@ -46,22 +46,22 @@ The Book Management Service uses HTTP Basic authentication to authenticate reque
 The following endpoints are available:
 
 ### Books
-POST /books: Add a new book (MANAGER role required).
-GET /books: Get a list of all books (USER role required).
-GET /books/search: Search for books by keyword (USER role required).
-GET /books/{bookId}: Get a book by ID (USER role required).
-PUT /books/{bookId}: Update a book (MANAGER role required).
-DELETE /books/{bookId}: Delete a book (MANAGER role required).
+- POST /books: Add a new book (MANAGER role required).
+- GET /books: Get a list of all books (USER role required).
+- GET /books/search: Search for books by keyword (USER role required).
+- GET /books/{bookId}: Get a book by ID (USER role required).
+- PUT /books/{bookId}: Update a book (MANAGER role required).
+- DELETE /books/{bookId}: Delete a book (MANAGER role required).
 
 ### Book Categories
-POST /categories: Add a new book category (MANAGER role required).
-GET /categories: Get a list of all book categories (USER role required).
-GET /categories/{categoryId}: Get a book category by ID (USER role required).
-PUT /categories/{categoryId}: Update a book category (MANAGER role required).
-DELETE /categories/{categoryId}: Delete a book category (MANAGER role required).
-POST /categories/{categoryId}/books: Add a book to a book category (MANAGER role required).
-GET /categories/{categoryId}/books: Get a list of books in a book category (USER role required).
-DELETE /categories/{categoryId}/books/{bookId}: Remove a book from a book category (MANAGER role required).
+- POST /categories: Add a new book category (MANAGER role required).
+- GET /categories: Get a list of all book categories (USER role required).
+- GET /categories/{categoryId}: Get a book category by ID (USER role required).
+- PUT /categories/{categoryId}: Update a book category (MANAGER role required).
+- DELETE /categories/{categoryId}: Delete a book category (MANAGER role required).
+- POST /categories/{categoryId}/books: Add a book to a book category (MANAGER role required).
+- GET /categories/{categoryId}/books: Get a list of books in a book category (USER role required).
+- DELETE /categories/{categoryId}/books/{bookId}: Remove a book from a book category (MANAGER role required).
 
 
 ## License
