@@ -22,8 +22,6 @@ The Book Management Service provides a REST API that can be accessed using any H
 
 The API is documented using OpenAPI (formerly known as Swagger), which provides an interactive documentation UI that allows users to explore the API and try out requests.
 
-To access the API documentation, start the application and navigate to http://localhost:8080/swagger-ui.html in a web browser.
-
 ## Authentication
 The Book Management Service uses HTTP Basic authentication to authenticate requests. To access the API, users must provide a username and password that correspond to a user with the appropriate role.
 
