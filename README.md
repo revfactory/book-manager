@@ -12,7 +12,7 @@ The Book Management Service is a web application built with Kotlin and Spring Bo
 - Gradle 7.6 or higher
 
 ## Installation
-- Clone the repository: git clone https://https://github.com/revfactory/book-manager.git
+- Clone the repository: git clone https://github.com/revfactory/book-manager.git
 - Navigate to the project directory: cd book-manager
 - Build the project: ./gradlew build
 - Run the project: ./gradlew bootRun
